@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SelectpersonVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
