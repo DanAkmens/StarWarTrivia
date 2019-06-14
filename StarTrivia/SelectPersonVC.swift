@@ -10,6 +10,14 @@ import UIKit
 
 class SelectPersonVC: UIViewController {
     
+    @IBOutlet weak var nameLbl: BlackBgView!
+    @IBOutlet weak var heightLbl: BlackBgView!
+    @IBOutlet weak var massLbl: BlackBgView!
+    @IBOutlet weak var hairLbl: BlackBgView!
+    @IBOutlet weak var birthYearLbl: UILabel!
+    @IBOutlet weak var genderLbl: UILabel!
+    
+    
      var personApi = PersonAPI()
     
      override func viewDidLoad() {
